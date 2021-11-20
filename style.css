@@ -1,0 +1,304 @@
+body{
+    background-color: cornflowerblue;
+}
+.header_nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    height: 100px;
+    color: rgb(255, 0, 0);
+    font-family: 'Fredericka the Great', cursive;
+    
+}
+.nav{
+    display: flex;
+    justify-content: center;
+}
+.nav > ul{
+    display: flex;
+    list-style-type: none;
+}
+.nav > ul > a{
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+    font-size: 20px;
+    margin: 0 12px;
+}
+.ask{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(30, 30, 30);
+    width: 120px;
+    height: 50px;
+    background-color: #ff0000;
+    border-radius: 25px;
+}
+.nav > ul > a:hover{
+    color: black;
+}
+.ask:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.mainpage{
+    display: flex;
+    justify-content: center;
+    height: 800px;
+}
+.text_link{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 2000px;
+}
+.textmaim{
+    width: 530px;
+    text-align: center;
+    margin-left: 500px;
+}
+.text_link h1{
+    font-family:  'Fredericka the Great', cursive;
+    color: white;
+    font-size: 50px;
+}
+.textmaim > h1 > span {
+    font-weight: lighter;
+    font-size: 40px;
+}
+.text_link > ul {
+    list-style-type: none;
+    color: white;
+}
+.ci{
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.ci:hover{
+    cursor: pointer;
+    background-color: powderblue;
+}
+.serviceinfo{
+    background-color: white;
+    width: auto;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.serviceinfo > p {
+    font-family:  'Fredericka the Great', cursive;
+    font-weight: lighter;
+    margin-top: 50px;
+}
+.textservice{
+    width: 570px;
+}
+.textservice > h1{
+    font-family:  'Fredericka the Great', cursive;
+    font-size: 50px;
+}
+.boxinfo{
+    display: flex;
+    justify-content: space-around;
+}
+.boxstyle{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 40px;
+    font-family:  'Fredericka the Great', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.boxstyle:hover {
+    border: 1px solid blue;
+}
+.aboutmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.about_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    font-family:  'Fredericka the Great', cursive;
+    margin-right: 70px;
+}
+.btn_me{
+    width: 120px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: white;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.about_img{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+footer{
+    background-color: cadetblue;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    align-items: center;
+}
+.about_main_info{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:  'Fredericka the Great', cursive;
+    font-size: 50px;
+    color: white;
+}
+.about_main_text{
+    background-color: white;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:  'Fredericka the Great', cursive;
+}
+.about_main_text > h1{
+    font-weight: lighter;
+    width: 500px;
+    text-align: center;
+    margin-top: 70px;
+}
+.about_me_text{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.text_me{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.img_me{
+    width: 400px;
+    height: 400px;
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.box_about{
+margin-top: 180px;
+display: flex;
+justify-content: space-around;
+
+}
+.box_me{
+    width: 250px;
+    height: 120px;
+    border: 1px solid black;
+    margin: 0 170px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.box_me:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.contact_main{
+    display: flex;
+    height: 800px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    font-family:  'Fredericka the Great', cursive;
+}
+.input_block{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+.inp_text{
+    width: auto;
+    height: 200px;
+    text-align: center;
+    border: 2px solid gray;
+}
+.name_mail{
+    display: flex;
+    justify-content: space-between;
+}
+.inp_name{
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    border: 2px solid gray;
+}
+.inp_mail{
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    border: 2px solid gray;
+}
+.inp_sub{
+    margin-top: 30px;
+    width: auto;
+    height: 50px;
+    border: 2px solid gray;
+}
+.btn_ent{
+    margin-top: 30px;
+    font-family:  'Fredericka the Great', cursive;
+    display: flex;
+    justify-content: center;
+    width: 170px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 5%;
+    text-align: center;
+    color: white;
+    background-color: skyblue;
+}
+.btn_ent:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.contacts{
+    width: 800px;
+    margin-top: 80px;
+}
+.contacts ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+.contacts > ul > li i{
+    margin-right: 10px;
+}
+.contacts:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
