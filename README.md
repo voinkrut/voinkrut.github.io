@@ -1,1 +1,0 @@
-# voinkrut.githup.io
